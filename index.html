@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CatPhotoApp</h1>
+        <p>Everyone loves <a href="#">cute cats</a> online! <br> See more <a href="#">cat photos</a> in our gallery.</p>
+    </header>
+
+    <section class="gallery">
+        <h2>Cat Photos</h2>
+        <img src="cat.jpg" alt="Cute Cat">
+        <img src="catimg1.jpg" alt="Adorable Cat">
+        <img src="catimg.jpg" alt="Playful Kitten">
+    </section>
+
+    <section class="cat-lists">
+        <h2>Things Cats Love:</h2>
+        <ul>
+            Catnip<br>
+            Laser pointers<br>
+            Lasagna
+        </ul>
+
+        <h2>Top 3 Things Cats Hate:</h2>
+        <ul>
+            Flea treatment<br>
+            Thunder<br>
+            Other cats
+        </ul>
+    </section>
+
+    <section class="cat-form">
+        <h2>Cat Form</h2>
+        <form>
+            <label>Is your cat an indoor or outdoor cat?</label><br>
+            <input type="radio" name="indoor-outdoor" value="Indoor" checked> Indoor
+            <input type="radio" name="indoor-outdoor" value="Outdoor"> Outdoor
+            <br><br>
+
+            <label>What's your cat's personality?</label><br>
+            <input type="checkbox" name="personality" value="Loving" checked> Loving
+            <input type="checkbox" name="personality" value="Lazy"> Lazy
+            <input type="checkbox" name="personality" value="Energetic"> Energetic
+            <br><br>
+
+            <input type="text" placeholder="Enter cat photo URL">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
